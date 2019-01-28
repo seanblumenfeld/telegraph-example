@@ -4,6 +4,7 @@ from airflow import DAG
 from airflow.operators.python_operator import PythonOperator
 from csv import DictWriter, DictReader
 from datetime import datetime
+from typing import List
 
 DATA_DIR = os.environ['DATA_DIR']
 
