@@ -1,0 +1,5 @@
+.DS_Store
+__pychache__
+dags/__pycache__/
+tests/__pycache__/
+*.pyc
