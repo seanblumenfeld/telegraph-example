@@ -17,5 +17,6 @@ The airflow UI should be reachable at localhost:8080.
 In order to process a hitlog file:
 * Move a valid `hitlog.csv` file into the data directory
 * Navigate to the UI localhost:8080
-* Click on the "trigger dag" button.
+* Flick the toggle on the left hand side to turn ON the hitlog dag. Note, if you do not so this then the dag will never start
+* Click on the "trigger dag" button to start a run.
 * An output file will created in the data directory called `out.csv`
